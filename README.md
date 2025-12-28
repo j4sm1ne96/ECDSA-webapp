@@ -2,6 +2,8 @@
 
 This is a simplified blockchain wallet demonstrating public-key cryptography for transaction authorization, it uses ECDSA (Elliptic Curve Digital Signature Algorithm).
 
+<img width="1469" height="843" alt="Screenshot 2025-12-28 at 17 54 23" src="https://github.com/user-attachments/assets/e300d959-68c4-490a-9191-a37ff26441ce" />
+
 To try, visit: https://ecdsa-webapp-frontent.onrender.com/
 
 What it does:

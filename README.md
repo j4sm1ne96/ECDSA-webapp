@@ -1,3 +1,34 @@
+# Jasmine ECDSA Web App Solution - Alchemy Project 1
+
+This is a simplified blockchain wallet demonstrating public-key cryptography for transaction authorization, it uses ECDSA (Elliptic Curve Digital Signature Algorithm).
+
+To try, visit: https://ecdsa-webapp-frontent.onrender.com/
+
+What it does:
+1. Users enter a private key to generate their public address and to see their balance
+2. Users can view balances and send funds between addresses
+3. Transactions are secured with the private key before processing transfers
+
+## Key features:
+- React frontend for the wallet UI
+- Node.js/Express backend to manage balances and validates signatures
+- ECDSA cryptography ensures only the private key owner can authorize transfers
+
+## Private Key/ Public Key Combos for Testing
+
+Private1: 288bbb35c2d990b7022c69bc45a47bb1667b60fc1e81afb6255df2df33a7fddc
+Public1: 0403ec16142a8c61d8e04d97d86914a5187107a29ab8cffa12f5923d22ab2c172aab825a185419581156c8b0795c25e338236a869c9914fadfcdfbdbda162edd6d
+
+Private2: 308b0547679df4257c555f44d3fc3f885e25afd64d34df18d8e6cf6178c8329f
+Public2: 04cbb71a1ba5813af5e1040ed6b5a9e2cec40d1670194b26d0d910613581bd490090285a9c1ad211f036ab5a238fe41616432754b7d7e772cf60bca18e75a50778
+
+Private3: 4ca329e1c5667432374b1b527311d43ad8d9bebb4dbec00aded747a412c8e84e
+Public3: 049644ad2293697dd3706ae3500182c2f7493e0c3e2cd32ff34f2dbbe210b4ec09456c80820a8ddd44315754b037f754e85657443d73b89cfbb7bd2fc6ad09578d
+
+--------------------------------------------------------------------------------------
+
+# For full project instructions/setup from Alchemy see below
+
 ## Project 1: Build a Web App using ECDSA
 
 This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
@@ -124,15 +155,3 @@ To pass **Phase 3**:
 ## Sample Solution
 
 Want to peek at a solution while you craft your own? Check [this repo](https://github.com/AlvaroLuken/exchange-secp256k1) out.
-
-
-## Private Key/ Public Key Combos for Testing
-
-Private1: 288bbb35c2d990b7022c69bc45a47bb1667b60fc1e81afb6255df2df33a7fddc
-Public1: 0403ec16142a8c61d8e04d97d86914a5187107a29ab8cffa12f5923d22ab2c172aab825a185419581156c8b0795c25e338236a869c9914fadfcdfbdbda162edd6d
-
-Private2: 308b0547679df4257c555f44d3fc3f885e25afd64d34df18d8e6cf6178c8329f
-Public2: 04cbb71a1ba5813af5e1040ed6b5a9e2cec40d1670194b26d0d910613581bd490090285a9c1ad211f036ab5a238fe41616432754b7d7e772cf60bca18e75a50778
-
-Private3: 4ca329e1c5667432374b1b527311d43ad8d9bebb4dbec00aded747a412c8e84e
-Public3: 049644ad2293697dd3706ae3500182c2f7493e0c3e2cd32ff34f2dbbe210b4ec09456c80820a8ddd44315754b037f754e85657443d73b89cfbb7bd2fc6ad09578d

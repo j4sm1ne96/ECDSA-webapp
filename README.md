@@ -124,3 +124,15 @@ To pass **Phase 3**:
 ## Sample Solution
 
 Want to peek at a solution while you craft your own? Check [this repo](https://github.com/AlvaroLuken/exchange-secp256k1) out.
+
+
+## Private Key/ Public Key Combos for Testing
+
+Private: 4ca329e1c5667432374b1b527311d43ad8d9bebb4dbec00aded747a412c8e84e
+Public: 049644ad2293697dd3706ae3500182c2f7493e0c3e2cd32ff34f2dbbe210b4ec09456c80820a8ddd44315754b037f754e85657443d73b89cfbb7bd2fc6ad09578d
+
+Private: 288bbb35c2d990b7022c69bc45a47bb1667b60fc1e81afb6255df2df33a7fddc
+Public: 0403ec16142a8c61d8e04d97d86914a5187107a29ab8cffa12f5923d22ab2c172aab825a185419581156c8b0795c25e338236a869c9914fadfcdfbdbda162edd6d
+
+Private: 308b0547679df4257c555f44d3fc3f885e25afd64d34df18d8e6cf6178c8329f
+Public: 04cbb71a1ba5813af5e1040ed6b5a9e2cec40d1670194b26d0d910613581bd490090285a9c1ad211f036ab5a238fe41616432754b7d7e772cf60bca18e75a50778
